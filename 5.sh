@@ -1,3 +1,4 @@
+# Title: Luas Persegi
 
 if ! command -v bc &> /dev/null
 then
