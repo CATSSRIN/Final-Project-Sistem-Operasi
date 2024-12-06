@@ -18,7 +18,7 @@ Repository ini dibuat untuk menyimpan dan menulis tugas "Final Project Sistem Op
 
 
 [^1]: Kelompok 1 : (Hendra & Nisa)
-  - Manipulasi Hak Akses Berkas (wajib)
+  Manipulasi Hak Akses Berkas (wajib)
   - Buka Aplikasi/Youtube/ Algoritma Penjadwalan Round Robin (wajib) 
   - Kalkulator
   - Konversi Mata Uang
