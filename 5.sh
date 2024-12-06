@@ -5,7 +5,7 @@ then
     exit
 fi
 
-echo "Masukkan panjang sisi persegi: "
+echo -n "Masukkan panjang sisi persegi: "
 read sisi
 
 luas=$(echo "$sisi * $sisi" | bc)
