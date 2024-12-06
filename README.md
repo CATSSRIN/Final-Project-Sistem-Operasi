@@ -6,7 +6,7 @@ Repository ini dibuat untuk menyimpan dan menulis tugas "Final Project Sistem Op
     - (Misal : Manipulasi Hak Akses, Algoritma Penjadwalan (Round Robin, FCFS, SJF atau Priority Schedulling), dll)
 2. Terdapat 5 menu atau lebih
     - Contoh :
-           - Kelompok 1 : (Hendra & Nisa)
+           > Kelompok 1 : (Hendra & Nisa)
                 - Manipulasi Hak Akses Berkas (wajib)
                 - Buka Aplikasi/Youtube/ Algoritma Penjadwalan Round Robin (wajib) 
                 - Kalkulator
