@@ -5,6 +5,7 @@ Repository ini dibuat untuk menyimpan dan menulis tugas "Final Project Sistem Op
 1. Buatlah sebuah bash programming di terminal Linux yang menerapkan minimal 2 konsep dasar sistem operasi
     - (Misal : Manipulasi Hak Akses, Algoritma Penjadwalan (Round Robin, FCFS, SJF atau Priority Schedulling), dll)
 2. Terdapat 5 menu atau lebih
+    - 
 3. Minimal 175 baris program
 4. Tidak error saat di jalankan
 
