@@ -1,7 +1,7 @@
 
 if ! command -v bc &> /dev/null
 then
-    echo "bc could not be found, please install it to proceed."
+    echo "package bc tidak ditemukan"
     exit
 fi
 
