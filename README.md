@@ -21,5 +21,6 @@ Repository ini dibuat untuk menyimpan dan menulis tugas "Final Project Sistem Op
 - Konversi Celcius ke Fahrenheit
 - Menghitung luas persegi
 
-# 
+# Bahasa
+- Bash
 
