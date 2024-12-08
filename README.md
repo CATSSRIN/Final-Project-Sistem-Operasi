@@ -22,5 +22,5 @@ Repository ini dibuat untuk menyimpan dan menulis tugas "Final Project Sistem Op
 - Menghitung luas persegi
 
 # Bahasa
-- Bash
+- Bash (Shell)
 
