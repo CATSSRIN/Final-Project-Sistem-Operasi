@@ -3,7 +3,7 @@
 while true; do
     echo "Menu:"
     echo "1. Manipulasi hak akses berkas"
-    echo "2. Membuka website YouTube yang langsung memainkan sebuah video Rickroll"
+    echo "2. Membuka website YouTube"
     echo "3. Konversi satuan panjang (cm ke m)"
     echo "4. Konversi Celcius ke Fahrenheit"
     echo "5. Menghitung luas persegi"
