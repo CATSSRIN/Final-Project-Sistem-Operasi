@@ -18,7 +18,7 @@ while true; do
             echo "Hak akses berkas telah diubah."
             ;;
         2)
-            xdg-open "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            xdg-open "https://youtu.be/poa_QBvtIBA?si=GKz9oP3SbL6fiTio"
             ;;
         3)
             read -p "Masukkan panjang dalam cm: " cm
