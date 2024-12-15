@@ -14,6 +14,22 @@ while true; do
         1)
             read -p "Masukkan nama berkas: " file
             read -p "Masukkan hak akses (misal: 755): " permission
+                echo "Hak akses yang tersedia:"
+                echo "1. 700 (rwx------)"
+                echo "2. 755 (rwxr-xr-x)"
+                echo "3. 644 (rw-r--r--)"
+                echo "4. 600 (rw-------)"
+                echo "5. 777 (rwxrwxrwx)"
+                read -p "Pilih hak akses (1-5): " perm_choice
+
+                    case $perm_choice in
+                        1) permission=700 ;;
+                        2) permission=755 ;;
+                        3) permission=644 ;;
+                        4) permission=600 ;;
+                        5) permission=777 ;;
+                        *) echo "Pilihan tidak valid, menggunakan hak akses default 755."; permission=755 ;;
+                    esac
             chmod $permission $file
             echo "Hak akses berkas telah diubah."
             ;;
