@@ -15,7 +15,7 @@ while true; do
             read -p "Masukkan nama berkas: " file
             read -p "Masukkan hak akses (misal: 755): " permission
                 echo "Hak akses yang tersedia:"
-                echo "1. 700 (rwx------)"
+                echo "1. 700 (rwx------)( file's owner has full permissions (read, write, and execute), while the group and others have no permissions at all.)"
                 echo "2. 755 (rwxr-xr-x)"
                 echo "3. 644 (rw-r--r--)"
                 echo "4. 600 (rw-------)"
@@ -61,7 +61,7 @@ while true; do
             echo "Keluar dari menu."
             break
             ;;
-            
+
         *)
             echo "Pilihan tidak valid, silakan coba lagi."
             ;;
