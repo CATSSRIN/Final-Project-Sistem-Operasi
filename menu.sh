@@ -30,31 +30,38 @@ while true; do
                         5) permission=777 ;;
                         *) echo "Pilihan tidak valid, menggunakan hak akses default 755."; permission=755 ;;
                     esac
+
             chmod $permission $file
             echo "Hak akses berkas telah diubah."
             ;;
+
         2)
             xdg-open "https://youtu.be/poa_QBvtIBA?si=GKz9oP3SbL6fiTio"
             ;;
+
         3)
             read -p "Masukkan panjang dalam cm: " cm
             meter=$(echo "scale=2; $cm / 100" | bc)
             echo "$cm cm = $meter m"
             ;;
+
         4)
             read -p "Masukkan suhu dalam Celcius: " celcius
             fahrenheit=$(echo "scale=2; $celcius * 9 / 5 + 32" | bc)
             echo "$celcius C = $fahrenheit F"
             ;;
+
         5)
             read -p "Masukkan panjang sisi persegi: " sisi
             luas=$(echo "$sisi * $sisi" | bc)
             echo "Luas persegi dengan sisi $sisi adalah $luas"
             ;;
+
         6)
             echo "Keluar dari menu."
             break
             ;;
+            
         *)
             echo "Pilihan tidak valid, silakan coba lagi."
             ;;
