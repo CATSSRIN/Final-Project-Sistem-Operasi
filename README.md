@@ -17,6 +17,8 @@ Repository ini dibuat untuk menyimpan dan menulis tugas "Final Project Sistem Op
 5. Tidak error saat di jalankan
 
 # Features
+- Manipulasi Hak Akses Berkas (wajib)
+- Buka Aplikasi/Youtube/ Algoritma Penjadwalan Round Robin (wajib) 
 - Konversi satuan panjang (cm,m)
 - Konversi Celcius ke Fahrenheit
 - Menghitung luas persegi
