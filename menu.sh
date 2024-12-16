@@ -108,12 +108,12 @@ while true; do
 
                     3)
                         echo "Pilih video memes yang ingin ditonton:"
-                        echo "1. "
-                        echo "2. "
-                        echo "3. "
-                        echo "4. "
-                        echo "5. "
-                        echo "6. "
+                        echo "1. What you're seeing is Advanced Warfare"
+                        echo "2. Top 5 Asian"
+                        echo "3. are these fries"
+                        echo "4. tactical thermonuclear gnome"
+                        echo "5. My Name Is Skyler White, Yo"
+                        echo "6. Are You Gonna Stick Me With That Broken Piece Of Plate?"
                         echo "7. "
                         echo "8. "
                         echo "9. "
@@ -121,12 +121,12 @@ while true; do
                         read -p "Pilih video (1-10): " video_memes_choice
 
                         case $video_memes_choice in
-                            1) xdg-open "https://youtu.be/";;
-                            2) xdg-open "https://youtu.be/";;
-                            3) xdg-open "https://youtu.be/";;
-                            4) xdg-open "https://youtu.be/";;
-                            5) xdg-open "https://youtu.be/";;
-                            6) xdg-open "https://youtu.be/";;
+                            1) xdg-open "https://youtu.be/JaXZx34KyQc?si=VX-5zL57rzfsTUkC";;
+                            2) xdg-open "https://youtu.be/67Eb2Ba46PE?si=0hz2eG4KkEjEEVOE";;
+                            3) xdg-open "https://youtu.be/_CuzqZ9k87c?si=IggMesAfaz2DhB1a";;
+                            4) xdg-open "https://youtu.be/YPW_HeOHA1E?si=p96b6rpcGlf3Wbb0";;
+                            5) xdg-open "https://youtu.be/pOcg-AdC2Y8?si=Izd0bn1CRc0B65yS";;
+                            6) xdg-open "https://youtu.be/sFVrvRjlXH4?si=uEqFmlTgShGhJNnr";;
                             7) xdg-open "https://youtu.be/";;
                             8) xdg-open "https://youtu.be/";;
                             9) xdg-open "https://youtu.be/";;
