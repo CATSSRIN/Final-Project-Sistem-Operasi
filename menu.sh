@@ -28,7 +28,7 @@ while true; do
                 echo "--x = execute (1)"
                 echo "jika mau digabungkan maka 7+5+5 = 755"
                 echo "dan untuk per user maka ditambah 4+2+1 = 7"
-                
+
                 read -p "Pilih hak akses (1-5): " perm_choice
 
                     case $perm_choice in
@@ -183,9 +183,9 @@ while true; do
             ;;
 
         5)
-            read -p "Masukkan panjang sisi persegi: " sisi
+            read -p "Masukkan panjang sisi persegi dalam cm: " sisi
             luas=$(echo "$sisi * $sisi" | bc)
-            echo "Luas persegi dengan sisi $sisi adalah $luas"
+            echo "Luas persegi dengan sisi $sisi cm adalah $luas cm^2"
             ;;
 
         6)
