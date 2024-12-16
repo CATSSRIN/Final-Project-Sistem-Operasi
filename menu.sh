@@ -16,10 +16,10 @@ while true; do
             read -p "Masukkan hak akses (misal: 755): " permission
                 echo "Hak akses yang tersedia:"
                 echo "1. 700 (rwx------)(file's owner has full permissions (read, write, and execute).)"
-                echo "2. 755 (rwxr-xr-x)(file can only be changed and executed by owner meanwhile others can read and execute)."
+                echo "2. 755 (rwxr-xr-x)(owner have full permissions while others can read and execute)."
                 echo "3. 644 (rw-r--r--)(owner can only read and write while other can only write)."
                 echo "4. 600 (rw-------)(owner can read and write)."
-                echo "5. 777 (rwxrwxrwx)(everyone have full permission)."
+                echo "5. 777 (rwxrwxrwx)(everyone have full permissions)."
                 echo "rwx = read, write, execute (7)"
                 echo "r-x = read, execute (5)"
                 echo "rw- = read, write (6)"
