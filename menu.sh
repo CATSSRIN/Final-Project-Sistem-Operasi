@@ -24,6 +24,8 @@ while true; do
                 echo "r-x = read, execute (5)"
                 echo "rw- = read, write (6)"
                 echo "r-- = read (4)"
+                echo "w-- = write (2)"
+                echo "--x = execute (1)"
                 read -p "Pilih hak akses (1-5): " perm_choice
 
                     case $perm_choice in
@@ -34,7 +36,7 @@ while true; do
                         5) permission=777 ;;
                         *) echo "Pilihan tidak valid, menggunakan hak akses default 755."; permission=755 ;;
                     esac
-                    
+
             chmod $permission $file
             echo "Hak akses berkas telah diubah."
             ;;
