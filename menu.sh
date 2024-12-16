@@ -34,7 +34,7 @@ while true; do
                         5) permission=777 ;;
                         *) echo "Pilihan tidak valid, menggunakan hak akses default 755."; permission=755 ;;
                     esac
-
+                    
             chmod $permission $file
             echo "Hak akses berkas telah diubah."
             ;;
@@ -76,6 +76,7 @@ while true; do
 
                             *) echo "Pilihan tidak valid." ;;
                         esac
+                        ;;
 
                     2) 
                         echo "Pilih video Hololive yang ingin ditonton:"
@@ -105,6 +106,7 @@ while true; do
                         10) xdg-open "https://youtu.be/6jtHTfsHTas?si=AMYzgoV9TViQDPRH";;
                             *) echo "Pilihan tidak valid." ;;
                         esac
+                        ;;
 
                     3)
                         echo "Pilih video memes yang ingin ditonton:"
@@ -133,12 +135,40 @@ while true; do
                             10) xdg-open "https://youtu.be/T28LyXf8MlU?si=9w9JOFMgiJULRzG5";;
                             *) echo "Pilihan tidak valid." ;;
                         esac
+                        ;;
                     esac
+                    ;;
 
         3)
-            read -p "Masukkan panjang dalam cm: " cm
-            meter=$(echo "scale=2; $cm / 100" | bc)
-            echo "$cm cm = $meter m"
+            echo "Pilih mau konversi cm ke::"
+            echo "1. milimeter"
+            echo "2. Meter"
+            echo "3. Kilometer"
+            read -p "Pilih (1-3): " cm_choice
+
+            case $cm_choice in
+                1)
+                    read -p "Masukkan panjang dalam cm: " cm
+                    mm=$(echo "$cm * 10" | bc)
+                    echo "$cm cm = $mm mm"
+                    ;;
+
+                2)
+                    read -p "Masukkan panjang dalam cm: " cm
+                    meter=$(echo "scale=2; $cm / 100" | bc)
+                    echo "$cm cm = $meter m"
+                    ;;
+
+                3)
+                    read -p "Masukkan panjang dalam cm: " cm
+                    kilometer=$(echo "scale=2; $cm / 100000" | bc)
+                    echo "$cm cm = $kilometer km"
+                    ;;
+
+                *)
+                    echo "Pilihan tidak valid, silakan coba lagi."
+                    ;;
+            esac
             ;;
 
         4)
