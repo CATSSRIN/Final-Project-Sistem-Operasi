@@ -20,10 +20,10 @@ while true; do
                 echo "3. 644 (rw-r--r--)(owner can only read and write while other can only write)."
                 echo "4. 600 (rw-------)(owner can read and write)."
                 echo "5. 777 (rwxrwxrwx)(everyone have full permission)."
-                echo "rwx = read, write, execute"
-                echo "r-x = read, execute"
-                echo "rw- = read, write"
-                echo "r-- = read"
+                echo "rwx = read, write, execute (7)"
+                echo "r-x = read, execute (5)"
+                echo "rw- = read, write (6)"
+                echo "r-- = read (4)"
                 read -p "Pilih hak akses (1-5): " perm_choice
 
                     case $perm_choice in
