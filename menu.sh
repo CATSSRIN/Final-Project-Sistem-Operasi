@@ -80,9 +80,31 @@ while true; do
                     2) 
                         echo "Pilih video Hololive yang ingin ditonton:"
                         echo "1. Hololime"
-                        
+                        echo "2. YO YO YO YO"
+                        echo "3. HoloGPS"
+                        echo "4. GG"
+                        echo "5. UmU"
+                        echo "6. Botan Pats SSRB At High Speed"
+                        echo "7. "
+                        echo "8. "
+                        echo "9. "
+                        echo "10. "
 
                         read -p "Pilih video (1-10): " video_hololive_choice
+                        
+                        case $video_hololive_choice in
+                        1) xdg-open "https://youtu.be/fTIO1oEY1FU?si=FbXIreegN8fLjHgv" ;;
+                        2) xdg-open "https://youtu.be/Sfeoe7PWi4s?si=YcGogwg884d58ntD" ;;
+                        3) xdg-open "https://youtu.be/Y3nBX__WEVQ?si=WL6gm80igl3zkhe9" ;;
+                        4) xdg-open "https://youtu.be/9nXYsmTv3Gg?si=GfNjhxkOSG5inyBi" ;;
+                        5) xdg-open "https://youtu.be/oSjzMHQv-M8?si=n6TTV_gnHrCrQko2" ;;
+                        6) xdg-open "https://youtu.be/xP2UA20G430?si=qqRUFsImGhvpr0uC" ;;
+                        7) xdg-open "";;
+                        8) xdg-open "";;
+                        9) xdg-open "";;
+                        10) xdg-open "";;
+                            *) echo "Pilihan tidak valid." ;;
+                        esac
 
 
 
