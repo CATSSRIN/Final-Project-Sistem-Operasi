@@ -15,11 +15,15 @@ while true; do
             read -p "Masukkan nama berkas: " file
             read -p "Masukkan hak akses (misal: 755): " permission
                 echo "Hak akses yang tersedia:"
-                echo "1. 700 (rwx------)( file's owner has full permissions (read, write, and execute), while the group and others have no permissions at all.)"
-                echo "2. 755 (rwxr-xr-x)"
-                echo "3. 644 (rw-r--r--)"
-                echo "4. 600 (rw-------)"
-                echo "5. 777 (rwxrwxrwx)"
+                echo "1. 700 (rwx------)(file's owner has full permissions (read, write, and execute).)"
+                echo "2. 755 (rwxr-xr-x)(file can only be changed and executed by owner meanwhile others can read and execute)."
+                echo "3. 644 (rw-r--r--)(owner can only read and write while other can only write)."
+                echo "4. 600 (rw-------)(owner can read and write)."
+                echo "5. 777 (rwxrwxrwx)(everyone have full permission)."
+                echo "rwx = read, write, execute"
+                echo "r-x = read, execute"
+                echo "rw- = read, write"
+                echo "r-- = read"
                 read -p "Pilih hak akses (1-5): " perm_choice
 
                     case $perm_choice in
