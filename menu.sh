@@ -48,23 +48,41 @@ while true; do
 
                 case $genre_choice in
                     1) 
-                        echo "Pilih video yang ingin ditonton:"
+                        echo "Pilih music video yang ingin ditonton:"
                         echo "1. fishe"
                         echo "2. WE ARE JAPANESE GOBLIN"
                         echo "3. WE ARE JAPANESE GOBLIN REMASTERED"
                         echo "4. Geoxor - Moonlight"
+                        echo "5. YO YO YO YO"
+                        echo "6. Camellia - DENPA NEVER DIE"
+                        echo "7. I AM JUST A FISHE"
+                        echo "8. Nulbarich - Lost Game"
+                        echo "9. kamome sano & you - Altair"
+                        echo "10. TUYU - It Might Be Painful, but I Still Love It."
 
-                        read -p "Pilih video (1-): " video_music_choice
+                        read -p "Pilih video (1-10): " video_music_choice
 
                         case $video_music_choice in
                             1) xdg-open "https://youtu.be/poa_QBvtIBA?si=GKz9oP3SbL6fiTio" ;;
                             2) xdg-open "https://youtu.be/Tc8iu0XFUQc?si=PGhCB1wkoGLtOkd6" ;;
                             3) xdg-open "https://youtu.be/UIp6_0kct_U?si=fztoZAKBRk9qCG20" ;;
                             4) xdg-open "https://youtu.be/hUs0-gqBulQ?si=P6OOGtuH-r8BSnDr" ;;
+                            5) xdg-open "https://youtu.be/Sfeoe7PWi4s?si=YcGogwg884d58ntD" ;;
+                            6) xdg-open "https://youtu.be/8k2f3JKPZmM?si=grKqSaSWW08B_Rks" ;;
+                            7) xdg-open "https://youtu.be/keqhcFqp2pI?si=IE_J7jx2I_MPYVMR" ;;
+                            8) xdg-open "https://youtu.be/AhGMZVnfmeU?si=HRJ9wP2MfSh15mIc" ;;
+                            9) xdg-open "https://youtu.be/asNXxmaCwMg?si=ML4TuOWTpmvo9u_3" ;;
+                            10) xdg-open "https://youtu.be/K8GZ8SoNfmE?si=RoPwEghq8koeHYzf";;
 
                             *) echo "Pilihan tidak valid." ;;
                         esac
 
+                    2) 
+                        echo "Pilih video Hololive yang ingin ditonton:"
+                        echo "1. Hololime"
+                        
+
+                        read -p "Pilih video (1-10): " video_hololive_choice
 
 
 
