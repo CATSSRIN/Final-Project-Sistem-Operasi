@@ -106,6 +106,34 @@ while true; do
                             *) echo "Pilihan tidak valid." ;;
                         esac
 
+                    3)
+                        echo "Pilih video memes yang ingin ditonton:"
+                        echo "1. "
+                        echo "2. "
+                        echo "3. "
+                        echo "4. "
+                        echo "5. "
+                        echo "6. "
+                        echo "7. "
+                        echo "8. "
+                        echo "9. "
+                        echo "10. "
+                        read -p "Pilih video (1-10): " video_memes_choice
+
+                        case $video_memes_choice in
+                            1) xdg-open "https://youtu.be/";;
+                            2) xdg-open "https://youtu.be/";;
+                            3) xdg-open "https://youtu.be/";;
+                            4) xdg-open "https://youtu.be/";;
+                            5) xdg-open "https://youtu.be/";;
+                            6) xdg-open "https://youtu.be/";;
+                            7) xdg-open "https://youtu.be/";;
+                            8) xdg-open "https://youtu.be/";;
+                            9) xdg-open "https://youtu.be/";;
+                            10) xdg-open "https://youtu.be/";;
+                            *) echo "Pilihan tidak valid." ;;
+                        esac
+
 
 
 
