@@ -114,10 +114,10 @@ while true; do
                         echo "4. tactical thermonuclear gnome"
                         echo "5. My Name Is Skyler White, Yo"
                         echo "6. Are You Gonna Stick Me With That Broken Piece Of Plate?"
-                        echo "7. "
-                        echo "8. "
-                        echo "9. "
-                        echo "10. "
+                        echo "7. habe u seen alien"
+                        echo "8. Chernobyl dubbed with Half-Life SFX"
+                        echo "9. The Terminator dubbed with Half-Life SFX"
+                        echo "10. Give me a drink, bartender"
                         read -p "Pilih video (1-10): " video_memes_choice
 
                         case $video_memes_choice in
@@ -127,10 +127,10 @@ while true; do
                             4) xdg-open "https://youtu.be/YPW_HeOHA1E?si=p96b6rpcGlf3Wbb0";;
                             5) xdg-open "https://youtu.be/pOcg-AdC2Y8?si=Izd0bn1CRc0B65yS";;
                             6) xdg-open "https://youtu.be/sFVrvRjlXH4?si=uEqFmlTgShGhJNnr";;
-                            7) xdg-open "https://youtu.be/";;
-                            8) xdg-open "https://youtu.be/";;
-                            9) xdg-open "https://youtu.be/";;
-                            10) xdg-open "https://youtu.be/";;
+                            7) xdg-open "https://youtu.be/EtxBvU21J28?si=PCZl0yOVAl968e3k";;
+                            8) xdg-open "https://youtu.be/7F1ma_0vwog?si=jVx9EPvPmHjHNFvu";;
+                            9) xdg-open "https://youtu.be/OwwkjgHE2mk?si=as5At9GrO2p1HXsq";;
+                            10) xdg-open "https://youtu.be/T28LyXf8MlU?si=9w9JOFMgiJULRzG5";;
                             *) echo "Pilihan tidak valid." ;;
                         esac
 
