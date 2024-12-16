@@ -85,10 +85,10 @@ while true; do
                         echo "4. GG"
                         echo "5. UmU"
                         echo "6. Botan Pats SSRB At High Speed"
-                        echo "7. "
-                        echo "8. "
-                        echo "9. "
-                        echo "10. "
+                        echo "7. Suisei nanananana"
+                        echo "8. Kanata's wall"
+                        echo "9. Spinning Okayu"
+                        echo "10. Laplus's Wifi"
 
                         read -p "Pilih video (1-10): " video_hololive_choice
                         
@@ -99,10 +99,10 @@ while true; do
                         4) xdg-open "https://youtu.be/9nXYsmTv3Gg?si=GfNjhxkOSG5inyBi" ;;
                         5) xdg-open "https://youtu.be/oSjzMHQv-M8?si=n6TTV_gnHrCrQko2" ;;
                         6) xdg-open "https://youtu.be/xP2UA20G430?si=qqRUFsImGhvpr0uC" ;;
-                        7) xdg-open "";;
-                        8) xdg-open "";;
-                        9) xdg-open "";;
-                        10) xdg-open "";;
+                        7) xdg-open "https://youtu.be/_RPkBzv2jYc?si=fDSddYb0mIFpBRk3";;
+                        8) xdg-open "https://youtu.be/kkXnWA0YzNQ?si=IZR9uIrfB3c2e1WD";;
+                        9) xdg-open "https://youtu.be/W1z_z1bJSMo?si=vnRJ03N-5GL7yFXF";;
+                        10) xdg-open "https://youtu.be/6jtHTfsHTas?si=AMYzgoV9TViQDPRH";;
                             *) echo "Pilihan tidak valid." ;;
                         esac
 
