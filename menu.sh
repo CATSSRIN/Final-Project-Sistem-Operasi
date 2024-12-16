@@ -40,7 +40,19 @@ while true; do
             ;;
 
         2)
-            xdg-open "https://youtu.be/poa_QBvtIBA?si=GKz9oP3SbL6fiTio"
+            echo "Pilih video yang ingin ditonton:"
+            echo "1. fishe"
+
+            read -p "Pilih video (1-): " video_choice
+
+            case $video_choice in
+                1) xdg-open "https://youtu.be/poa_QBvtIBA?si=GKz9oP3SbL6fiTio" ;;
+                
+                
+                *) echo "Pilihan tidak valid." ;;
+            esac
+
+            echo "Video telah dibuka."
             ;;
 
         3)
