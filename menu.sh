@@ -42,13 +42,26 @@ while true; do
         2)
             echo "Pilih video yang ingin ditonton:"
             echo "1. fishe"
-
+            echo "2. WE ARE JAPANESE GOBLIN"
+            echo "3. WE ARE JAPANESE GOBLIN REMASTERED"
+            echo "4. Hololime"
+            echo "5. YO YO YO YO"
+            echo "6. HoloGPS"
+            echo "7. GG"
+            echo "8. UmU"
             read -p "Pilih video (1-): " video_choice
 
             case $video_choice in
                 1) xdg-open "https://youtu.be/poa_QBvtIBA?si=GKz9oP3SbL6fiTio" ;;
-                
-                
+                2) xdg-open "https://youtu.be/Tc8iu0XFUQc?si=PGhCB1wkoGLtOkd6" ;;
+                3) xdg-open "https://youtu.be/UIp6_0kct_U?si=fztoZAKBRk9qCG20" ;;
+                4) xdg-open "https://youtu.be/fTIO1oEY1FU?si=FbXIreegN8fLjHgv" ;;
+                5) xdg-open "https://youtu.be/Sfeoe7PWi4s?si=YcGogwg884d58ntD" ;;
+                6) xdg-open "https://youtu.be/Y3nBX__WEVQ?si=WL6gm80igl3zkhe9" ;;
+                7) xdg-open "https://youtu.be/9nXYsmTv3Gg?si=GfNjhxkOSG5inyBi" ;;
+                8) xdg-open "https://youtu.be/oSjzMHQv-M8?si=n6TTV_gnHrCrQko2" ;;
+
+
                 *) echo "Pilihan tidak valid." ;;
             esac
 
