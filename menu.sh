@@ -13,13 +13,13 @@ while true; do
     case $choice in
         1)
             read -p "Masukkan nama berkas: " file
-            read -p "Masukkan hak akses (misal: 755): " permission
+
                 echo "Hak akses yang tersedia:"
-                echo "1. 700 (rwx------)(file's owner has full permissions (read, write, and execute).)"
-                echo "2. 755 (rwxr-xr-x)(owner have full permissions while others can read and execute)."
-                echo "3. 644 (rw-r--r--)(owner can only read and write while other can only write)."
-                echo "4. 600 (rw-------)(owner can read and write)."
-                echo "5. 777 (rwxrwxrwx)(everyone have full permissions)."
+                echo " 700 (rwx------)(file's owner has full permissions (read, write, and execute).)"
+                echo " 755 (rwxr-xr-x)(owner have full permissions while others can read and execute)."
+                echo " 644 (rw-r--r--)(owner can only read and write while other can only write)."
+                echo " 600 (rw-------)(owner can read and write)."
+                echo " 777 (rwxrwxrwx)(everyone have full permissions)."
                 echo "rwx = read, write, execute (7)"
                 echo "r-x = read, execute (5)"
                 echo "rw- = read, write (6)"
@@ -28,17 +28,7 @@ while true; do
                 echo "--x = execute (1)"
                 echo "jika mau digabungkan maka 7+5+5 = 755"
                 echo "dan untuk per user maka ditambah 4+2+1 = 7"
-
-                read -p "Pilih hak akses (1-5): " perm_choice
-
-                    case $perm_choice in
-                        1) permission=700 ;;
-                        2) permission=755 ;;
-                        3) permission=644 ;;
-                        4) permission=600 ;;
-                        5) permission=777 ;;
-                        *) echo "Pilihan tidak valid, menggunakan hak akses default 755."; permission=755 ;;
-                    esac
+                read -p "Masukkan hak akses (misal: 755): " permission
 
             chmod $permission $file
             echo "Hak akses berkas telah diubah."
