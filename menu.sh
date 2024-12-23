@@ -28,7 +28,7 @@ while true; do
                 echo "--x = execute (1)"
                 echo "jika mau digabungkan maka 7+5+5 = 755"
                 echo "dan untuk per user maka ditambah 4+2+1 = 7"
-                read -p "Masukkan hak akses (misal: 755): " permission
+                read -p "Masukkan hak akses (misal: 777): " permission
 
             chmod $permission $file
             echo "Hak akses berkas telah diubah."
